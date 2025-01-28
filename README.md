@@ -1,6 +1,6 @@
 # My Custom Oh My Posh Theme
 
-![Preview](https://via.placeholder.com/1000x300.png?text=Theme+Preview)
+![Preview](assets/preview.png)
 
 This repository contains a custom theme for [Oh My Posh](https://ohmyposh.dev/), designed to provide a sleek and functional interface for your terminal.
 
