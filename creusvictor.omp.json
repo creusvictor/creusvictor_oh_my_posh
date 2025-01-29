@@ -64,11 +64,8 @@
           "type": "kubectl",
           "style": "powerline",
           "foreground": "p:grey",
-          "template": " ﴱ {{.Context}} :: {{if .Namespace}}{{.Namespace}}{{else}}default{{end}}",
+          "template": " \ue81d {{.Context}} :: {{if .Namespace}}{{.Namespace}}{{else}}default{{end}}",
           "properties": {
-            "context_aliases": {
-              "arn:aws:eks:eu-west-1:1234567890:cluster/posh": "posh"
-            }
           }
         }
       ],
