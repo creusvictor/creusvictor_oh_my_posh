@@ -6,7 +6,8 @@
         "grey": "#696969",
         "white": "#FFFFFF",
         "lavender": "#B4BEFE",
-        "blue":  "#89B4FA"
+        "blue":  "#89B4FA",
+	"red": "#FF0000"
   },
   "blocks": [
     {
@@ -23,7 +24,10 @@
           "foreground": "p:blue",
           "style": "plain",
           "template": "{{ .UserName }}@{{ .HostName }} ",
-          "type": "session"
+          "type": "session",
+	  "foreground_templates":[
+		  "{{ if .Root }}p:red{{ end }}"
+	  ]
         },
         {
           "foreground": "p:white",
