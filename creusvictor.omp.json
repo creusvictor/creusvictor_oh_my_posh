@@ -66,12 +66,21 @@
       "alignment": "right",
       "segments": [
         {
-          "type": "kubectl",
-          "style": "powerline",
+          "type": "shell",
+          "style": "plain",
           "foreground": "p:grey",
-          "template": " \ue81d {{.Context}} :: {{if .Namespace}}{{.Namespace}}{{else}}default{{end}}",
           "properties": {
+            "mapped_shell_names": {
+            "pwsh": "PS"
           }
+        },
+        "template": "in {{ .Name }} "
+        },
+        {
+          "type": "time",
+          "style": "plain",
+          "foreground": "p:grey",
+          "template": "at {{ .CurrentDate | date .Format }}"
         }
       ],
       "type": "prompt"
