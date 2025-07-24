@@ -19,7 +19,6 @@ This repository contains a custom theme for [Oh My Posh](https://ohmyposh.dev/),
 - Designed with a modern and minimalist aesthetic.
 - Soft, customized colors for better readability.
 - Displays key information such as OS, username, path, and Git status.
-- Supports Kubernetes (`kubectl`).
 - Decorative final segment.
 
 ---
@@ -31,11 +30,12 @@ The theme uses a palette that combines elegant and versatile tones:
 | Color       | Hex       |
 |-------------|-----------|
 | OS          | `#ACB0BE` |
-| Closer      | `#ACB0BE` |
-| Grey        | `#000000` |
+| Closer      | `p:os`    |
+| Grey        | `#696969` |
 | White       | `#FFFFFF` |
 | Lavender    | `#B4BEFE` |
 | Blue        | `#89B4FA` |
+| Red         | `#FF0000` |
 
 ---
 
@@ -48,7 +48,8 @@ The theme uses a palette that combines elegant and versatile tones:
 - **Git**: Displays repository status information like branch, commits, and more.
 
 ### Right Block
-- **Kubernetes**: Displays the active context and namespace.
+- **SHELL**: Displays the active shell.
+- **TIME**: Displays the execution time.
 
 ### Bottom Block
 - A simple decorative separator.
