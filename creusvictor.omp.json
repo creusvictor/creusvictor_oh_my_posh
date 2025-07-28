@@ -25,9 +25,9 @@
           "style": "plain",
           "template": "{{ .UserName }}@{{ .HostName }} ",
           "type": "session",
-	  "foreground_templates":[
-		  "{{ if .Root }}p:red{{ end }}"
-	  ]
+	        "foreground_templates":[
+		        "{{ if .Root }}p:red{{ end }}"
+	        ]
         },
         {
           "foreground": "p:white",
